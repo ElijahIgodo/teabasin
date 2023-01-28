@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="images/tea-roots-icon3.png">
+    <link rel="stylesheet" href="health-fitness.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog-post.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Fitness</title>
+    <script src="https://kit.fontawesome.com/db4319a107.js" crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#922409">
+    <script src="jquery-3.6.3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/ui/themes/1.13.2/jquery-ui.js"></script>
+  </head>
+
+<body>
+  
+  <div class="top-nav-banner">
+    <div class="top-logo-div">
+      <img src="images/tea-roots4.png" alt="Site logo">
+    </div>
+
+    <div class="top-button-div">
+
+      <div id="category">
+      <h3 ><i class="fa-solid fa-caret-right"></i> <i class="fa-solid fa-sort-down"></i></h3>
+      <h2 onclick="category()">Category</h2>
+      </div>
+
+      <a href="health-fitness.html"><button id="health-btn" class="top-btn"><i class="fa-solid fa-suitcase-medical"></i> Health & Fitness</button></a>
+      <a href="habits-lifestyles.html"><button class="top-btn"><i class="fa-solid fa-ban-smoking"></i> Habits & Lifestyles</button></a>
+      <a href="fruits-nuts.html"><button class="top-btn"><i class="fa-solid fa-apple-whole"></i> Fruits & Nuts</button></a>
+      <a href="roots-herbs.html"><button class="top-btn"><i class="fa-solid fa-seedling"></i> Roots & Herbs</button></a>
+      
+       <div id="topbtn">
+        <a href="health-fitness.html"><button id="top-btn1" class="top-btn1"><i class="fa-solid fa-suitcase-medical"></i> Health & Fitness</button></a>
+        <a href="habits-lifestyles.html"><button class="top-btn2"><i class="fa-solid fa-ban-smoking"></i> Habits & Lifestyles</button></a>
+        <a href="fruits-nuts.html"><button class="top-btn3"><i class="fa-solid fa-apple-whole"></i> Fruits & Nuts</button></a>
+        <a href="roots-herbs.html"><button class="top-btn4"><i class="fa-solid fa-seedling"></i> Roots & Herbs</button></a>
+       </div>
+
+    </div>
+
+    <div class="menu-bar-div" id="menu-bar-div">
+      <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-card"></i> About</a></li>
+        <li id="blog"><a href="#"><i class="fa-solid fa-book-open-reader"></i> Blog</a>
+          <ul id="blog-lists">
+            <li><a href="/health-and-fitness/things-you-should-eat-to-cure-and-to-prevent-cancer.html">Things You Should Eat To Cure And To Prevent Cancer</a></li>
+            <li><a href="/health-and-fitness/natural-way-to-cure-and-say-goodbye-to-diabetes.html">Natural Way To Cure And Say Goodbye To Diabetes</a></li>
+            <li><a href="/health-and-fitness/find-out-the-healthy-way-to-lose-weight.html">Find Out The Healthy Way To Lose Weight</a></li>
+            <li><a href="/health-and-fitness/tips-for-getting-pregnant-faster.html">Tips For Getting Pregnant Faster</a></li>
+            <li><a href="/habits-and-lifestyles/quit-smoking-by-following-these-simple-steps.html">Quit Smoking By Following These Simple Steps</a></li>
+         </ul>
+        </li>
+        <li><a href="#"><i class="fa-solid fa-store"></i> Shop</a></li>
+      </ul>
+       <form id="search-div" action="">
+        <input type="search" placeholder="Search" autofocus>
+        <button id="srch-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+       </form>
+    </div>
+
+    <div class="menu-icon" id="menu-icon">
+      <p id="first-p" onclick="firstP()"><i class="fa-solid fa-bars"></i></p>
+      <p id="second-p" onclick="secondP()"><i class="fa-solid fa-xmark"></i></p>
+    </div>
+
+  </div>
+
+
+  <!--THIS IS THE BLOG CONTENT SECTION-->
+
+<div class="blog-content-container">
+
+  <div class="title-div">
+      <button onclick="postBtn()"><i id="fa-folder-closed" class="fa-solid fa-folder-closed"></i><i id="fa-folder-open" class="fa-regular fa-folder-open"></i> Blog posts</button>
+      <ul id="ul">
+         <li><a href="/health-and-fitness/things-you-should-eat-to-cure-and-to-prevent-cancer.html">Things You Should Eat To Cure And To Prevent Cancer</a></li>
+         <li><a href="/health-and-fitness/natural-way-to-cure-and-say-goodbye-to-diabetes.html">Natural Way To Cure And Say Goodbye To Diabetes</a></li>
+         <li><a href="/health-and-fitness/find-out-the-healthy-way-to-lose-weight.html">Find Out The Healthy Way To Lose Weight</a></li>
+         <li><a href="/health-and-fitness/tips-for-getting-pregnant-faster.html">Tips For Getting Pregnant Faster</a></li>
+      </ul>
+  </div>
+
+
+
+  <div class="content-div">
+
+     <div class="post post1">
+        <img src="images/cancer.jpg" alt="Cancer">
+        <h3>Things You Should Eat To Cure And To Prevent Cancer</h3>
+        <div class="inner-div">
+          <p><i class="fa-solid fa-clock"></i> January 23, 2023</p>
+          <p><i class="fa-solid fa-file"></i> Health & Fitness</p>
+          <p><i class="fa-solid fa-image-portrait"></i> TeaBasin</p>
+          <section><p><i class="fa-solid fa-comment-dots"></i></p> <p class="health-cat-comment comment" id="health-cat-comment1">0</p> <p>Comments</p></section>
+        </div>
+        <p class="description">Cancer is a disease that has a very bad effect on the general health of the patient.
+          Not only this, due to the treatment of cancer, the diet of the patient also has a bad effect.
+          The diet of many cancer patients is also reduced because the disease affects various organs of their
+          digestive system such as the esophagus, stomach, small or large intestine, liver, gall bladder, or pancreas...</p>
+          <a href="/health-and-fitness/things-you-should-eat-to-cure-and-to-prevent-cancer.html"><button>Continue Reading <i class="fa-solid fa-chevron-right"></i></button></a>
+     </div>
+
+     <div class="post post2">
+      <img src="images/diabetes3.jpg" alt="Diabetes">
+      <h3>Natural Way To Cure And Say Goodbye To Diabetes</h3>
+      <div class="inner-div">
+        <p><i class="fa-solid fa-clock"></i> January 23, 2023</p>
+        <p><i class="fa-solid fa-file"></i> Health & Fitness</p>
+        <p><i class="fa-solid fa-image-portrait"></i> TeaBasin</p>
+        <section><p><i class="fa-solid fa-comment-dots"></i></p> <p class="health-cat-comment comment" id="health-cat-comment2">0</p> <p>Comments</p></section>
+      </div>
+      <p class="description">Diabetes is a chronic disease in which there is an increase in blood sugar,
+        or blood sugar levels, which the body is unable to bring back to normal.
+        This condition can be caused by a reduced production of insulin,
+        the hormone produced by the pancreas to use sugars and other components of food and turn them into energy,
+        or by the body’s reduced ability to use the insulin...</p>
+        <a href="/health-and-fitness/natural-way-to-cure-and-say-goodbye-to-diabetes.html"><button>Continue Reading <i class="fa-solid fa-chevron-right"></i></button></a>
+   </div>
+
+   <div class="post post3">
+    <img src="images/loss.jpg" alt="Weight loss">
+    <h3>Find Out The Healthy Way To Lose Weight</h3>
+    <div class="inner-div">
+      <p><i class="fa-solid fa-clock"></i> January 23, 2023</p>
+      <p><i class="fa-solid fa-file"></i> Health & Fitness</p>
+      <p><i class="fa-solid fa-image-portrait"></i> TeaBasin</p>
+      <section><p><i class="fa-solid fa-comment-dots"></i></p> <p class="health-cat-comment comment" id="health-cat-comment3">0</p> <p>Comments</p></section>
+    </div>
+    <p class="description">There is no need to go around it, there are two ways: to intervene on the diet and physical activity we carry out,
+      and in this guide we will see how. Also because losing weight with a correct diet, in addition to doing us good and making us feel better,
+      is also good for the planet: since caloric foods produce more emissions, requiring more water and more land to be produced...</p>
+      <a href="/health-and-fitness/find-out-the-healthy-way-to-lose-weight.html"><button>Continue Reading <i class="fa-solid fa-chevron-right"></i></button></a>
+ </div>
+
+ <div class="post post4">
+  <img src="images/pregnant.jpg" alt="Pregnancy">
+  <h3>Tips For Getting Pregnant Faster</h3>
+  <div class="inner-div">
+    <p><i class="fa-solid fa-clock"></i> January 23, 2023</p>
+    <p><i class="fa-solid fa-file"></i> Health & Fitness</p>
+    <p><i class="fa-solid fa-image-portrait"></i> TeaBasin</p>
+    <section><p><i class="fa-solid fa-comment-dots"></i></p> <p class="health-cat-comment comment" id="health-cat-comment4">0</p> <p>Comments</p></section>
+  </div>
+  <p class="description">There are many reasons why women would like to get pregnant quickly. Sometimes they can be related to age,
+    or because you want to have children with little age difference, or because many couples cannot spend much time together due to
+    professional commitments and are forced to plan conception more carefully....</p>
+    <a href="/health-and-fitness/tips-for-getting-pregnant-faster.html"><button>Continue Reading <i class="fa-solid fa-chevron-right"></i></button></a>
+</div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+<!--This is the footer-->
+<!--
+<div class="question">
+  <h3>Ask A Question <i class="fa-solid fa-question"></i></h3>
+</div> -->
+
+<footer>
+
+<hr>
+<div class="footer-logo-div">
+  <img src="images/tea-roots4.png" alt="">
+</div>
+<div class="footer-links-div">
+  <li><a href="#">Privacy policy</a></li>
+  <li><a href="#">Terms of Use</a></li>
+  <li><a href="#">Cookies</a></li>
+  <li><a href="#">Regulations</a></li>
+</div>
+<div class="footer-wng-div">
+ <p><b>WARNING:</b> The contents on this site are not advised to put into practice without our knowledge, or doctor's prescription.</p>
+</div>
+<div class="copyright-div">
+  <p>Copyright&nbsp;&copy;<p id="footer-year"></p>&nbsp;- TeaBasin &#183 All rights reserved</p>
+</div>
+</footer>
+
+
+
+<script src="/posts.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

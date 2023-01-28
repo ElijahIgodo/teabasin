@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'poppins', sans-serif;
+  background-color: white;
+}
+#habits-btn{
+  background-color: black;
+  color: white;
+}
+#topbtn > a > #top-btn2{
+  background-color: black;
+  color: white;
+}

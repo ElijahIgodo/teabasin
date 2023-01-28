@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/x-icon" href="images/tea-roots-icon3.png">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natural Health Remedy</title>
+  <script src="https://kit.fontawesome.com/db4319a107.js" crossorigin="anonymous"></script>
+  <meta name="theme-color" content="#922409">
+  <script src="jquery-3.6.3.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://code.jquery.com/ui/themes/1.13.2/jquery-ui.js"></script>
+</head>
+
+<body>
+   
+  <div class="top-nav-banner">
+    <div class="top-logo-div">
+      <img src="images/tea-roots4.png" alt="Site logo">
+    </div>
+
+    <div class="top-button-div">
+
+      <div id="category">
+      <h3 ><i class="fa-solid fa-caret-right"></i> <i class="fa-solid fa-sort-down"></i></h3>
+      <h2 onclick="category()">Category</h2>
+      </div>
+
+      <a href="health-fitness.html"><button class="top-btn"><i class="fa-solid fa-suitcase-medical"></i> Health & Fitness</button></a>
+      <a href="habits-lifestyles.html"><button class="top-btn"><i class="fa-solid fa-ban-smoking"></i> Habits & Lifestyles</button></a>
+      <a href="fruits-nuts.html"><button class="top-btn"><i class="fa-solid fa-apple-whole"></i> Fruits & Nuts</button></a>
+      <a href="roots-herbs.html"><button class="top-btn"><i class="fa-solid fa-seedling"></i> Roots & Herbs</button></a>
+      
+       <div id="topbtn">
+        <a href="health-fitness.html"><button class="top-btn1"><i class="fa-solid fa-suitcase-medical"></i> Health & Fitness</button></a>
+        <a href="habits-lifestyles.html"><button class="top-btn2"><i class="fa-solid fa-ban-smoking"></i> Habits & Lifestyles</button></a>
+        <a href="fruits-nuts.html"><button class="top-btn3"><i class="fa-solid fa-apple-whole"></i> Fruits & Nuts</button></a>
+        <a href="roots-herbs.html"><button class="top-btn4"><i class="fa-solid fa-seedling"></i> Roots & Herbs</button></a>
+       </div>
+
+    </div>
+
+    <div class="menu-bar-div" id="menu-bar-div">
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-card"></i> About</a></li>
+        <li id="blog"><a href="#"><i class="fa-solid fa-book-open-reader"></i> Blog</a>
+            <ul id="blog-lists">
+               <li><a href="/health-and-fitness/things-you-should-eat-to-cure-and-to-prevent-cancer.html">Things You Should Eat To Cure And To Prevent Cancer</a></li>
+               <li><a href="/health-and-fitness/natural-way-to-cure-and-say-goodbye-to-diabetes.html">Natural Way To Cure And Say Goodbye To Diabetes</a></li>
+               <li><a href="/health-and-fitness/find-out-the-healthy-way-to-lose-weight.html">Find Out The Healthy Way To Lose Weight</a></li>
+               <li><a href="/health-and-fitness/tips-for-getting-pregnant-faster.html">Tips For Getting Pregnant Faster</a></li>
+               <li><a href="/habits-and-lifestyles/quit-smoking-by-following-these-simple-steps.html">Quit Smoking By Following These Simple Steps</a></li>
+            </ul>
+        </li>
+        <li><a href="#"><i class="fa-solid fa-store"></i> Shop</a></li>
+      </ul>
+       <form id="search-div" action="">
+        <input type="search" placeholder="Search" autofocus>
+        <button id="srch-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+       </form>
+    </div>
+
+    <div class="menu-icon" id="menu-icon">
+      <p id="first-p" onclick="firstP()"><i class="fa-solid fa-bars"></i></p>
+      <p id="second-p" onclick="secondP()"><i class="fa-solid fa-xmark"></i></p>
+    </div>
+
+  </div>
+
+
+<!--This is the home page intro section-->
+
+<div class="about-into-div">
+   <h1>GET QUALITY ORGANIC PRODUCTS & RELIABLE MEDICAL INFORMATION</h1>
+</div>
+
+<div class="intro-div">
+
+   <div class="image-and-description-div">
+      <div class="image-div">
+         <img src="images/package.jpg" width="100%" alt="">
+         <p>
+          Do you have an idea that you’re trying to increase your longevity with our herbal products and medical information?
+          We are God gifted, professional herbalists and doctors who specialize on the discovery of natural way of curing every
+           disease from organic items.
+        </p>
+      </div>
+      <div class="description-div">
+          <p>
+            This skill is indispensable when it comes to leaving a lasting impression on a client, and ensuring their 
+            final product both tastes and works great.
+            With our experience, we’re always working to ensure our clients’ health gets the attention they deserve.
+          </p>
+          <img src="images/home.jpg" alt="">
+      </div>
+   </div>
+
+</div>
+
+
+
+<!--THIS IS THE FOCUS SECTION OF THE PAGE-->
+
+<div class="focus-div">
+
+   <div class="focus-title-div">
+     <h1>OUR FOCUS</h1>
+     <p>We understand your needs and provide you quality services.</p>
+   </div>
+
+   <div class="focus-content-div bloggingDiv">
+      <p><i class="fa-solid fa-book-open-reader"></i></p>
+      <h3>Blogging</h3>
+      <p>We provide you with reliable information, suggestion, tips, and
+        prescription of effective herbal and organic medicines that will
+        cure whatever infectious disease you may be suffering from.
+      </p>
+   </div>
+
+   <div class="focus-content-div productDiv">
+    <p><i class="fa-solid fa-mortar-pestle"></i></p>
+    <h3>Production</h3>
+    <p>We’re really proud of this work, which was aimed at making our clients’
+      day-to-day health stronger and more efficient. Looking for herbal products
+      that will cure your sicknesses for once? You’ll get them here.
+    </p>
+   </div>
+
+   <div class="focus-content-div pharmacyDiv">
+    <p><i class="fa-solid fa-store"></i></p>
+    <h3>Pharmacy</h3>
+    <p>We are a licensed pharmacy that sells different kinds of drugs both online and
+      in physical stores. Looking for herbal products that will cure your sicknesses for
+      once? You’ll get them here.
+    </p>
+   </div>
+
+</div>
+
+
+
+<!--THIS IS THE FOCUS SECTION OF THE PAGE-->
+
+<div class="team-div">
+
+  <div class="team-title-div">
+     <h1>OUR TEAM</h1>
+     <p>Whatever it is about your health, our professionals are equal to the task.</p>
+  </div>
+
+  <div class="team-content-div firstContent">
+    <img src="images/man2.jpg" alt="">
+     <h3>Ahaan Darsh</h3>
+     <p>Medical Doctor & Dietician</p>
+  </div>
+
+  <div class="team-content-div secondContent">
+    <img src="images/woman1.jpg" alt="">
+    <h3>Prisha Arma</h3>
+    <p>Healthcare Administrator</p>
+ </div>
+
+ <div class="team-content-div thirdContent">
+  <img src="images/woman2.jpg" alt="">
+  <h3>Annika Jacobs</h3>
+  <p>Traditional Therapist</p>
+</div>
+
+<div class="team-content-div fourthContent">
+  <img src="images/man1.jpg" alt="">
+  <h3>Douglas Colin</h3>
+  <p>Medical Technologist</p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!--This is the footer-->
+<div class="question">
+       <h3>Ask A Question <i class="fa-solid fa-question"></i></h3>
+    </div>
+  <footer>
+    
+    <hr>
+    <div class="footer-logo-div">
+       <img src="images/tea-roots4.png" alt="">
+    </div>
+    <div class="footer-links-div">
+       <li><a href="#">Privacy policy</a></li>
+       <li><a href="#">Terms of Use</a></li>
+       <li><a href="#">Cookies</a></li>
+       <li><a href="#">Regulations</a></li>
+    </div>
+    <div class="footer-wng-div">
+      <p><b>WARNING:</b> The contents on this site are not advised to put into practice without our knowledge, or doctor's prescription.</p>
+    </div>
+    <div class="copyright-div">
+       <p>Copyright&nbsp;&copy;<p id="footer-year"></p>&nbsp;- TeaBasin &#183 All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
