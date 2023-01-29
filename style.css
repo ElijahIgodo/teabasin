@@ -547,6 +547,8 @@ body{
 .image-div > p{
   font-size: 22px;
   width: 100%;
+  font-family: 'poppins', sans-serif;
+  line-height: 1.5;
 }
 .image-div::before{
   content: "Dr. Rohan Gopal";
@@ -565,6 +567,8 @@ body{
 .description-div > p{
   font-size: 22px;
   width: 100%;
+  font-family: 'poppins', sans-serif;
+  line-height: 1.5;
 }
 .description-div > img{
   background-size: auto 100%;
@@ -638,6 +642,8 @@ body{
 }
 .focus-content-div > p{
   font-size: 20px;
+  font-family: 'poppins', sans-serif;
+  line-height: 1.5;
 }
 .focus-content-div > h3{
   margin-bottom: 20px;
